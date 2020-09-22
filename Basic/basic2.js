@@ -6,4 +6,4 @@ function ageCalculator(a,b){    //create function that calculates age based on b
     //return result in a string
 }
 
-ageCalculator(1996,2020);   //input values
+ageCalculator(1970,2020);   //input values
