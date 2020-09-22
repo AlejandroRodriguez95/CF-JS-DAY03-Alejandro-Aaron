@@ -27,15 +27,14 @@ function rolldiece2() {
 }
 
 //calculating the winner of current round
-
 function displayWinner() {
     if (isNaN(arr[0]) == false && isNaN(arr[1]) == false) {
         if (arr[0] == arr[1]) {
-            document.getElementById("winner").innerHTML = "It is a TIE!";
+       document.getElementById("winner").innerHTML = "It is a TIE!";
         } else if (arr[0] > arr[1]) {
-            document.getElementById("winner").innerHTML = "Player 1 has won";
+        document.getElementById("winner").innerHTML = "Player 1 has won";
         } else {
-            document.getElementById("winner").innerHTML = "Player 2 has won";
+        document.getElementById("winner").innerHTML = "Player 2 has won";
         }
     }
 }
