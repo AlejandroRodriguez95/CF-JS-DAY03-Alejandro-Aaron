@@ -12,23 +12,28 @@
         <h1>Welcome to a game of Die</h1>
     </header>
     <main>
-        <div>
-            <img src="" alt="">
+        <div >
+            <img src="dice-26772_1280.png" alt="Picture of diece" class="image">
         </div>
         <article>
             <p>To play this game, you need to find a partner. The winner is the one who has the highest number <br> May
                 the
                 lucky one win!</p>
         </article>
-        <!--Player 1-->
-        <h3 id="player1"></h3>
-        <button onclick="rolldiece1()">Roll Player 1 !</button>
-        <p id="die1"></p>
-        <!--Player 2-->
-        <h3 id="player2"></h3>
-        <button onclick="rolldiece2()">Roll Player 2 !</button>
-        <p id="die2"></p>
-
+        <br>
+        <br>
+        <div class="playerA">
+            <!--Player 1-->
+            <h3 id="player1"></h3>
+            <button onclick="rolldiece1()" class="btn1">Roll Player 1 !</button>
+            <p id="die1"></p>
+        </div>
+        <div class="playerB">
+            <!--Player 2-->
+            <h3 id="player2"></h3>
+            <button onclick="rolldiece2()" class="btn2">Roll Player 2 !</button>
+            <p id="die2"></p>
+        </div>
         <h3 id="winner"></h3>
     </main>
     <script src="script.js"></script>
